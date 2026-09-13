@@ -1,1 +1,18 @@
-.env 
+# Environment & Secrets
+.env
+.env.local
+
+# Virtual Environment
+.venv/
+venv/
+env/
+
+# Python Bytecode & Cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# macOS system files
+.DS_Store
+**/.DS_Store
